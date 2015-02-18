@@ -15,8 +15,8 @@ NOTE: currently, this readme references functionality yet to be implemented; thi
 
 ```
 slu [convert file_name target_type] [install [-p optional_path]] [help] 
-[mix [file1, file2, ...]] [new [-p optional_path, file1, file2, ...]] 
-[play [file]] [remove] [repair] [update [sl][slu]] [version]
+[mix file1, file2[, file3, file4, ...]] [new [-p optional_path, file1, file2, ...]] 
+[play file] [remove] [repair] [update [sl][slu]] [version]
 ```
 
 ## Description
@@ -46,7 +46,7 @@ help
 Shows the usage information.
 
 ```
-mix [file1, file2, ...]
+mix file1, file2[, file3, file4, ...]
 ```
 Passthrough to rrafastmixer/rraplay (will mix files, then play them). The files should be in RRA format.
 
@@ -56,7 +56,7 @@ new name [-p optional_path, file1, file2, ...]
 Create a new songlib project. By default, slu will create it in ~/songlib/projects/[name]. You can specify a path for the project to be created in, as well as the filenames for your instrument files.
 
 ```
-play [file]
+play file
 ```
 Passthrough to rraplay. File should be in RRA format.
 
