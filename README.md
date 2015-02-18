@@ -9,10 +9,10 @@ NOTE: currently, this readme references functionality yet to be implemented; thi
 	slu -- SongLib Utility 
 
 ## Synopsis
-'''git clone https://github.com/lusth-music/slu.git''' to retrieve repository
-'''make' && 'make install''' to install slu (will need developer tools)
+```git clone https://github.com/lusth-music/slu.git``` to retrieve repository
+```make' && 'make install``` to install slu (will need developer tools)
 
-'''slu [convert file_name target_type] [install [-p optional_path]] [help] [mix [file1, file2, ...]] [new [-p optional_path, file1, file2, ...]] [play [file]] [remove] [repair] [update [sl][slu]] [version]'''
+```slu [convert file_name target_type] [install [-p optional_path]] [help] [mix [file1, file2, ...]] [new [-p optional_path, file1, file2, ...]] [play [file]] [remove] [repair] [update [sl][slu]] [version]```
 
 ## Description
 slu is a utility program designed to make installing, updating, and writing music with Songlib, a C music library, easier. Songlib and its documentation is available [here](http://www.songlib.cs.ua.edu).
