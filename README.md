@@ -14,7 +14,9 @@ NOTE: currently, this readme references functionality yet to be implemented; thi
 ```make``` && ```make install``` to install slu (will need developer tools)
 
 ```
-slu [convert file_name target_type] [install [-p optional_path]] [help] [mix [file1, file2, ...]] [new [-p optional_path, file1, file2, ...]] [play [file]] [remove] [repair] [update [sl][slu]] [version]
+slu [convert file_name target_type] [install [-p optional_path]] [help] 
+[mix [file1, file2, ...]] [new [-p optional_path, file1, file2, ...]] 
+[play [file]] [remove] [repair] [update [sl][slu]] [version]
 ```
 
 ## Description
